@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dcdada;
+    color: #333;
+}
+
+header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: #FF5722;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive; 
+    font-size: 3em;
+    color: whitesmoke;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dcdada;
+    color: #333;
+}
+
+footer {
+    background: #0c0c0c63;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: xx-small;
+}
+
+.ing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+}
+
+.section-title {
+    text-align: center;
+    text-align: center;
+    font-size: 1em;
+    margin: 5px 0;
+    color: #FF5722;
+    font-family: 'Pacifico', cursive;
+}
+
+.homebtn {
+    background-color: #FF5722;
+    border: transparent;
+    color: #ffffff;
+    font-family: 'Pacifico', cursive;
+    margin: 5px;
+    border-radius: 100px;
+    position: relative;
+    left: 18px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.homebtn:hover {
+    background-color: transparent;
+    color: #FF5722;
+    box-shadow: 0 0 5px rgb(253, 118, 0);
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1fr));
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(251, 140, 21, 0.605);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin: 15px;
+    padding: 1px;
+    width: auto;
+    height: auto;
+    align-items: start;
+}
+
+/* Center the section using Flexbox */
+.image {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+}
+
+/* Image card styling */
+.image-card {
+    border-radius: 20px;       /* Slightly rounded corners instead of a full circle */
+    width: 450px;              /* Adjust width to match the size of other cards */
+    height: 400px;             /* Adjust height to match the image size proportionately */
+    overflow: hidden;          /* Ensure the image fits within the container */
+    box-shadow: 0 4px 10px rgba(251, 140, 21, 0.605);/* Add some shadow for styling */
+    margin: 18px;              /* Add some margin around the image */
+    padding: 0px;              /* Maintain consistent padding */
+    align-self: center;        /* Keep the image centered */
+    position: relative;
+    left: 20px;
+}
+
+/* Image resizing */
+.image-card img {
+    width: 100%;              /* Make the image take up the full width of the container */
+    height: 100%;             /* Make the image take up the full height of the container */
+    object-fit: fill;      /* Ensure the entire image fits within the container, no cuts */
+}
+
+.card h2 {
+    align-self: start;
+    margin: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+.ing-list ul {
+    list-style-type: none;
+    margin: 18px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family: impact;
+}
+
+.ing-list ol {
+    font-family: Impact;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.ing-list li {
+    padding-top: 5px;
+    
+}
+
+/*.btn-home{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 119, 0);
+    border-radius:10px;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-family: 'Pacifico',cursive;
+    background: rgb(255, 119, 0);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    margin-left: 10px;
+    top: -10px;
+
+}
+
+
+
+.btn-home:hover {
+    background: transparent;
+    color: white;
+    border-color: white;
+    box-shadow: 0 0 15px rgb(253, 118, 0);
+}
+.homebtn{
+    align-self: left;
+} */
+footer
+{
+    background: #0c0c0c63;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size:xx-small;
+} 
+nav {
+    background-color: rgba(75, 52, 52, 0.54);
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #333;
+    /* border-bottom: 2px solid white; */
+    background-color: #FF5722;
+    border-radius: 25px;
+}
